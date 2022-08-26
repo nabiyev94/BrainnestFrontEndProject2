@@ -26,7 +26,7 @@
 
 .hero_inside {
     border: 5px;
-    border-style: none;
+    border-style: dotted;
     border-color: chartreuse;
     width: 80%;
     height: 33em;
@@ -40,7 +40,7 @@
 .header {
     display: flex;
     justify-content: center;
-    border-style: none;
+    border-style: dotted;
     height: 4em;
     width: 90%;
     margin-left: 60px;
@@ -53,14 +53,14 @@
     width: 210px;
     display: inline;
     margin-right: 485px;
-    border-style: none;
+    border-style: dotted;
 }
 
 .header_link_one {
     display: inline;
     color: #E5E7EB;
     font-size: 18px;
-    border-style: none;
+    border-style: dotted;
 }
 
 .header_link_two {
@@ -80,7 +80,7 @@
 .hero_main {
     display: flex;
     justify-content: center;
-    border-style: none;
+    border-style: dotted;
     border-color: red;
     height: 29em;
     align-self: center;
@@ -94,7 +94,7 @@
     font-size: 48px;
     font-family: bold;
     margin-right: 300px;
-    border-style: none;
+    border-style: dotted;
     border-color: yellowgreen;
     margin-bottom: 1px;
 }
@@ -102,7 +102,7 @@
 .secondary_text {
     color: #E5E7EB;
     font-size: 18px;
-    border-style: none;
+    border-style: dotted;
     border-color: yellowgreen;
     width: 70%;
 }
@@ -113,7 +113,7 @@
     width: 75px;
     border-radius: 14%;
     color: #E5E7EB;
-    border-style: none;
+    border-style: dotted;
     border-color: yellowgreen;
 }
 
