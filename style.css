@@ -1,0 +1,140 @@
+@font-face {
+    font-family: bold;
+    src: url(Roboto/Roboto-Bold.ttf) format(truetype);
+}
+
+@media (max-width: 360px) {
+    .hero {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 360px) {
+    .hero_inside {
+      flex-direction: column;
+    }
+  }
+
+
+
+.hero {
+    background-color: #1F2937;
+    height: 33em;
+    display: flex;
+    justify-content: center;
+}
+
+.hero_inside {
+    border: 5px;
+    border-style: none;
+    border-color: chartreuse;
+    width: 80%;
+    height: 33em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border-style: none;
+    height: 4em;
+    width: 90%;
+    margin-left: 60px;
+    padding-bottom: 65px;
+}
+
+.header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    width: 210px;
+    display: inline;
+    margin-right: 485px;
+    border-style: none;
+}
+
+.header_link_one {
+    display: inline;
+    color: #E5E7EB;
+    font-size: 18px;
+    border-style: none;
+}
+
+.header_link_two {
+    display: inline;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.header_link_three {
+    display: inline;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.hero_main {
+    display: flex;
+    justify-content: center;
+    border-style: none;
+    border-color: red;
+    height: 29em;
+    align-self: center;
+    width: 90%;
+}
+
+
+
+.main_text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-family: bold;
+    margin-right: 300px;
+    border-style: none;
+    border-color: yellowgreen;
+    margin-bottom: 1px;
+}
+
+.secondary_text {
+    color: #E5E7EB;
+    font-size: 18px;
+    border-style: none;
+    border-color: yellowgreen;
+    width: 70%;
+}
+
+.button {
+    background-color: #3882F6;
+    height: 32px;
+    width: 75px;
+    border-radius: 14%;
+    color: #E5E7EB;
+    border-style: none;
+    border-color: yellowgreen;
+}
+
+.hero_main_right_image {
+    width: 20%; 
+    height: 16em;
+    margin-top: 50px;
+    border-color: lightslategrey;
+    padding-left: 100px;
+    background-color: dimgray;
+    display: flex;
+    justify-content: center;
+    margin-right: 175px;
+}
+
+
+#footer {
+    background-color: #1F2937;
+    height: 2em;
+    color: #F9FAF8;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
