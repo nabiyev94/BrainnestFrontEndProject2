@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto-LightItalic';
-    src: url(Roboto/Roboto-LightItalic.ttf) format(truetype);
+    src: url(./Roboto/Roboto-LightItalic.ttf) format(truetype);
 }
 
 .hero {
@@ -167,14 +167,16 @@
     display: flex;
     justify-content: center;
     margin-top: 60px;
-    height: 16em;
+    height: 18em;
 }
 
 .quote_text {
     font-size: 36px;
     color: #1F2937;
-    font-family: 'Roboto-LightItalic';
+    font-family: "Roboto-LightItalic", sans-serif;
     width: 800px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .action {
