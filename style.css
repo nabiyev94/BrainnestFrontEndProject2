@@ -127,8 +127,8 @@
 
 .info_header {
     font-size: 36px;
-    columns: #1F2937;
-    font-weight: bold;
+    color: #1F2937;
+    font-weight: 800;
     /*Numeric value for extra-bold*/
 }
 
@@ -168,6 +168,11 @@
     justify-content: center;
     margin-top: 60px;
     height: 18em;
+    font-family: 'Roboto-LightItalic';
+}
+
+.quote_bg h1{
+    font-family: 'Roboto-LightItalic';
 }
 
 .quote_text {
