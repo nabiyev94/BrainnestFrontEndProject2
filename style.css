@@ -173,7 +173,7 @@
 .quote_text {
     font-size: 36px;
     color: #1F2937;
-    font-family: "Roboto-LightItalic", sans-serif;
+    font-family: 'Roboto-LightItalic';
     width: 800px;
     padding-top: 20px;
     padding-bottom: 20px;
