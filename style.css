@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -177,7 +177,7 @@
     font-family: 'Roboto-LightItalic';
 }
 
-.quote_bg h1{
+.quote_bg h1 {
     font-family: 'Roboto-LightItalic';
 }
 
